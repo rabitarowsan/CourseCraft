@@ -1,0 +1,29 @@
+.main-content {
+  margin-left: 260px; /* full sidebar width */
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.marginlefting {
+  margin-left: 60px !important; /* collapsed sidebar */
+}
+                    
+
+/* consistent vertical spacing between rows in course form */
+.course-form .row {
+  margin-bottom: 1.5rem;    /* ~24px — change to taste */
+}
+
+/* remove extra gap after the last row (optional) */
+.course-form .row:last-child {
+  margin-bottom: 0;
+}
+
+/* slightly smaller gap on small screens */
+@media (max-width: 768px) {
+  .course-form .row {
+    margin-bottom: 1rem;   /* ~16px */
+  }
+}
+.upload-btn {
+  margin-top: -1.2in;  /* smaller gap */
+}
